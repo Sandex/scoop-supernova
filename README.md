@@ -1,0 +1,2 @@
+# scoop-supernova
+Scoop bucket
