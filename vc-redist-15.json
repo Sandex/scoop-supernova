@@ -12,6 +12,5 @@
             "hash": "fdd1e1f0dcae2d0aa0720895eff33b927d13076e64464bb7c7e5843b7667cd14",
             "extract_dir": "vc-redist/15-win86"
         }
-    },
-    "innosetup": true
+    }
 }
