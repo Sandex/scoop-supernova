@@ -4,12 +4,12 @@
     "architecture": {
         "64bit": {
             "url": "https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x64.exe",
-            "hash": "F6DF07CEC3B1BD53B857E5F4E20309AB5E8AEAA29CA9152AB0D26B77B339780A",
+            "hash": "5eea714e1f22f1875c1cb7b1738b0c0b1f02aec5ecb95f0fdb1c5171c6cd93a3",
             "extract_dir": "vc-redist-15"
         },
         "32bit": {
             "url": "https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x86.exe",
-            "hash": "F3B715BC049B3C88BC47695278433C7DC4B2648E2B156F5E24346AECBA343035",
+            "hash": "fdd1e1f0dcae2d0aa0720895eff33b927d13076e64464bb7c7e5843b7667cd14",
             "extract_dir": "vc-redist-15"
         }
     }
