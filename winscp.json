@@ -1,0 +1,8 @@
+{
+    "homepage": "http://winscp.net",
+    "license": "http://winscp.net/eng/docs/license",
+    "version": "5.7.5",
+    "url": "https://winscp.net/download/winscp575setup.exe",
+    "hash": "68cdb90a1b10c9a827fa2356f51598b264c054462996e15ca821477d93fcdb65",
+    "extract_dir": "winscp-5.7.5"
+}
