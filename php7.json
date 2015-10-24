@@ -5,11 +5,11 @@
 	"architecture": {
 		"64bit": {
 			"url": "http://windows.php.net/downloads/qa/php-7.0.0RC5-Win32-VC14-x64.zip",
-			"hash": "DF4C6E80604610A952E7BD65D2801378AA730B055CD49413BA5B9D4225885942"
+			"hash": "95fd8f3f5c30efbb67907b30398ecc080d7d364a2711c0ef0d10ebcbf7c21550"
 		},
 		"32bit": {
 			"url": "http://windows.php.net/downloads/qa/php-7.0.0RC5-Win32-VC14-x86.zip",
-			"hash": "8ded94a696e4e8d20b93f121366b14f59b5a82127c048d1aba2c4fba3786f67e"
+			"hash": "abbe4ca69eb7bb648e411986a11beb57a2f4fb2f813d81622450c0853f298518"
 		}		
 	},
 	"bin": "php.exe",
