@@ -1,0 +1,8 @@
+{
+    "homepage": "https://www.jetbrains.com/phpstorm/",
+    "license": "https://www.jetbrains.com/phpstorm/buy/",
+    "version": "9.0.2",
+    "url": "https://download.jetbrains.com/webide/PhpStorm-9.0.2.exe",
+    "hash": "52f2eb35919f7ef235f8538631002ec79671dd0d2bd0cb9564158b7ef5886ad6",
+    "extract_dir": "phpstorm-9.0.2"
+}
