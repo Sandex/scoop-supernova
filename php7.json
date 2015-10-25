@@ -2,7 +2,7 @@
 	"homepage": "http://windows.php.net/qa/",
 	"version": "7.0.0",
 	"license": "http://www.php.net/license/",
-	"depends":  "vc-redist-15",
+	"depends":  "ms-vc14",
 	"architecture": {
 		"64bit": {
 			"url": "http://windows.php.net/downloads/qa/php-7.0.0RC5-Win32-VC14-x64.zip",
