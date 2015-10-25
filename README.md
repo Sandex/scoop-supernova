@@ -116,7 +116,7 @@ At first install fcgi module:
 
     scoop install apache-mod-fcgi
 
-And then add PHP handler fcgi to httpd.conf:
+And then add PHP handler fcgi to httpd.conf (run in powershell console):
 
     iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/Sandex/scoop-supernova/master/scripts/apache-php-fcgi.ps1')
     
