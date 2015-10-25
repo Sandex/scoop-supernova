@@ -1,5 +1,4 @@
 # scoop-supernova
-Scoop bucket
 
 The "supernova" another bucket for [Scoop](http://scoop.sh).
 Scoop is a command-line installer for Windows, like homebrew.
