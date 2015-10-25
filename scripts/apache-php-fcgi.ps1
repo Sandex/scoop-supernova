@@ -13,7 +13,7 @@ $conf = "$(split-path $apache)/../conf/httpd.conf"
 'enabling PHP handler...'
 $phpfcgi = "$(split-path $php -resolve)\php-cgi.exe"
 if(test-path $phpfcgi) {
-	$phpmodule = $phpfcgi -replace '\\', '/'
+	$phpfcgi = $phpfcgi -replace '\\', '/'
 	"
 # php setup handler via FastCGI
 <IfModule fcgid_module>
