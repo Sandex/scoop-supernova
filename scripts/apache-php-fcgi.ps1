@@ -15,9 +15,9 @@ $phpfcgi = "$(split-path $php -resolve)\php-cgi.exe"
 if(test-path $phpfcgi) {
 	$phpmodule = $phpfcgi -replace '\\', '/'
 	"
-# php setup as FastCGI
+# php setup handler via FastCGI
 <IfModule fcgid_module>
-  <Files ~ \"\.php$$\">
+  <Files ~ \"\.php`$\">
     AddHandler fcgid-script .php
     FcgidWrapper \"$phpfcgi\" .php
   </Files>
