@@ -1,0 +1,30 @@
+{
+	"homepage": "http://www.apachelounge.com",
+	"version": "2.3.9",
+	"architecture": {
+		"64bit": {
+			"url": "https://www.apachelounge.com/download/VC14/modules/mod_fcgid-2.3.9-win64-VC14.zip",
+			"hash": ""
+		},
+		"32bit": {
+			"url": "https://www.apachelounge.com/download/VC14/modules/mod_fcgid-2.3.9-win32-VC14.zip",
+			"hash": ""
+		}
+	},
+	"post_install": "
+# check for apache
+$apache = scoop which httpd
+if($lastexitcode -ne 0) { 'Apache isn''t installed. run ''scoop install apache'''; return }
+
+# add module in httpd.conf
+$apachemodule=\"$dir/mod_fcgid-2.3.9/mod_fcgid.so\"
+if(test-path $apachemodule) {
+  $root = ($apache | split-path -res -par | split-path -par) -replace '\\\\', '/';
+  $conf = \"$root/conf/httpd.conf\"
+	\"LoadModule fcgid_module '$apachemodule'\" | out-file $conf -append -encoding utf8  
+} else {
+	'error: couldn't find $apachemodule'; return
+}
+
+"
+}
