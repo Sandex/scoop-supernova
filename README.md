@@ -110,7 +110,7 @@ PHP7 with Apache
 Now you have two ways to connect PHP to the Apache.
 
 
-1. Connect PHP to Apache via FCGI (recommended)
+#### Connect PHP to Apache via FCGI (recommended)
 
 At first install fcgi module:
 
@@ -127,7 +127,7 @@ Now restart Apache:
 Done!    
 
 
-2. Load PHP as Apache module
+#### Load PHP as Apache module
 
 iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/Sandex/scoop-supernova/master/scripts/apache-php-module.ps1')
 
