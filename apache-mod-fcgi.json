@@ -23,7 +23,7 @@ if(test-path $apachemodule) {
   $conf = \"$root/conf/httpd.conf\"
 	\"LoadModule fcgid_module '$apachemodule'\" | out-file $conf -append -encoding utf8  
 } else {
-	\"error: couldn't find $apachemodule\""; return
+	\"error: couldn't find $apachemodule\"; return
 }
 
 "
