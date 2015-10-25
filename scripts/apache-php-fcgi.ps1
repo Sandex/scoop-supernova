@@ -17,7 +17,7 @@ if(test-path $phpfcgi) {
 	"
 # php setup as FastCGI
 <IfModule fcgid_module>
-  <Files ~ \"\.php\$\">
+  <Files ~ \"\.php$$\">
     AddHandler fcgid-script .php
     FcgidWrapper \"$phpfcgi\" .php
   </Files>
