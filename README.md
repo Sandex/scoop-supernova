@@ -111,7 +111,7 @@ PHP7 with Apache
 Now you have two ways to connect PHP to the Apache.
 
 
-1. Connect PHP to Apache via FSGI (recommended)
+1. Connect PHP to Apache via FCGI (recommended)
 
 At first install fcgi module:
 
