@@ -21,7 +21,9 @@ $apachemodule=\"$dir/mod_fcgid-2.3.9/mod_fcgid.so\"
 if(test-path $apachemodule) {
   $root = ($apache | split-path -res -par | split-path -par) -replace '\\\\', '/';
   $conf = \"$root/conf/httpd.conf\"
-	\"LoadModule fcgid_module '$apachemodule'\" | out-file $conf -append -encoding utf8  
+	\"
+LoadModule fcgid_module '$apachemodule'
+	\" | out-file $conf -append -encoding utf8  
 } else {
 	\"error: couldn't find $apachemodule\"; return
 }
