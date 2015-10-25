@@ -17,7 +17,7 @@ if(test-path $phpmodule) {
 	$phpmodule = $phpmodule -replace '\\', '/'
 	"
   # php setup
-	LoadModule php5_module '$phpmodule'
+	LoadModule php7_module '$phpmodule'
 	AddHandler application/x-httpd-php .php
 	PHPIniDir `"$(split-path $phpmodule)`"
 	" | out-file $conf -append -encoding utf8
