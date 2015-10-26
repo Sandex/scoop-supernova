@@ -129,6 +129,6 @@ Done!
 
 #### Load PHP as Apache module
 
-iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/Sandex/scoop-supernova/master/scripts/apache-php-module.ps1')
+    iex (new-object net.webclient).downloadstring('https://raw.githubusercontent.com/Sandex/scoop-supernova/master/scripts/apache-php-module.ps1')
 
 Done!
