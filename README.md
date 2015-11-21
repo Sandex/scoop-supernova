@@ -97,7 +97,7 @@ At first you need install sudo:
     
 The run:
 
-    sudo httpd -k install -n apache
+    sudo httpd -k install
     sudo net start apache
     
 It's done!
@@ -122,7 +122,7 @@ And then add PHP handler fcgi to httpd.conf (run in powershell console):
     
 Now restart Apache:
 
-    httpd -k restart -n apache
+    httpd -k restart
     
 Done!    
 
