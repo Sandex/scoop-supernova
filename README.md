@@ -98,7 +98,7 @@ At first you need install sudo:
 The run:
 
     sudo httpd -k install
-    sudo net start apache
+    sudo net start Apache2.4
     
 It's done!
 
